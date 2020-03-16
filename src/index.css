@@ -39,11 +39,24 @@ code {
 }
 
 .active-cyan input[type=text] {
-  border: 1px solid #b0c4de;
+  border: 0.8vh solid #b0c4de;
+}
+
+.form-div{
+  float: right;
+  padding: 2vw;
 }
 
 .form-control{
   border:1px solid #b0c4de !important;
+}
+
+.search-bar{
+  padding: 2vh;
+  display: block;
+  width: 70vw;
+  margin: 0 auto;
+  text-align: center;
 }
 
 

@@ -47,7 +47,7 @@ class BookForm extends Component {
 
     render() {
         return (
-            <div>
+            <div className='form-div'>
                 <h3 className='header'>Add a New Book!</h3>
 
                 <form className="form-group" onSubmit={this.handleSubmit}>
