@@ -39,7 +39,7 @@ class BookContainer extends Component {
 
     render() {
         return (
-            <div>
+            <div className='book-container-div'>
                 <Search onChange={this.handleSearch}/>
                 <BookForm addNewBook={this.addNewBook}/>
                 <BookList allBooks={this.state.allBooks.filter(

@@ -17,8 +17,13 @@ code {
 /*}*/
 
 .book-container{
-  /*background: url("https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");*/
   background-color: blanchedalmond;
+}
+
+.book-container-div{
+  background: url("https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
 .header{
