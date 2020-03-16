@@ -1,0 +1,69 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "description": "a novel by the Russian author, first published in book form in 1878. Many writers consider Anna Karenina the greatest work of literature ever, and Tolstoy himself called it his first true novel.",
+      "price": "$8.95",
+      "categoryId": "1"
+    },
+    {
+      "id": "2",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "the story of one beautiful, innocent young man's seduction, moral corruption, and eventual downfall.",
+      "price": "$9.00",
+      "categoryId": "1"
+    },
+    {
+      "id": "3",
+      "title": "The Plague",
+      "author": "Albert Camus",
+      "description": "tells the story of a plague sweeping the French Algerian city of Oran. It asks a number of questions relating to the nature of destiny and the human condition. The characters in the book, ranging from doctors to vacationers to fugitives, all help to show the effects the plague has on a populace.",
+      "price": "$13.95",
+      "categoryId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Night",
+      "author": "Elie Wiesel",
+      "description": "the author's experience with his father in the Nazi German concentration camps at Auschwitz and Buchenwald in 1944–1945, at the height of the Holocaust toward the end of the Second World War.",
+      "price": "$9.00",
+      "categoryId": "1"
+    },
+    {
+      "id": "5",
+      "title": "Vogue",
+      "author": "",
+      "description": "fashion and lifestyle magazine covering many topics including fashion, beauty, culture, living, and runway.",
+      "price": "$19.99",
+      "categoryId": "2"
+    },
+    {
+      "id": "6",
+      "title": "Cosmopolitan",
+      "author": "",
+      "description": "monthly magazine for women, with more than 50 international editions. The advertisement-heavy magazine features short fiction pieces and advice-oriented articles on relationships, sex, fashion, entertainment, and careers.",
+      "price": "$12.00",
+      "categoryId": "2"
+    },
+    {
+      "title": "Harry Potter the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "description": "Harry, Ron, and Hermione deduce that the treasure under the trapdoor is the Philosopher's Stone, which can transform metal into gold and can also confer immortality. They later discover that Voldemort has been killing unicorns in the Forbidden Forest and drinking their blood, another way to achieve immortality.",
+      "price": "$15.99",
+      "id": "rx38zAH"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "book"
+    },
+    {
+      "id": "2",
+      "name": "magazine"
+    }
+  ]
+}

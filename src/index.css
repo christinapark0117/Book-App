@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*.App{*/
+/*  background: url("./media/sincerely-media-nGrfKmtwv24-unsplash.jpg");*/
+/*}*/
+
+.book-container{
+  /*background: url("https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");*/
+  background-color: blanchedalmond;
+}
+
+.header{
+  text-align: center;
+  font-family: "Kaiti TC";
+}
+
+.card{
+  text-align: left;
+  font-family: SansSerif;
+  width: 20vw;
+  border:1px solid #b0c4de !important;
+}
+
+.active-cyan input[type=text] {
+  border: 1px solid #b0c4de;
+}
+
+.form-control{
+  border:1px solid #b0c4de !important;
+}
+
+
