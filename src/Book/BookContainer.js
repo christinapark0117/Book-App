@@ -41,10 +41,12 @@ class BookContainer extends Component {
 
     nextPage = () => {
         this.setState(  {
-            allBooks:  []
+            allBooks: []
         })
     }
 
+
+    
     render() {
         return (
             <div className='book-container-div'>
