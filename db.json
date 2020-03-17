@@ -54,6 +54,13 @@
       "description": "Harry, Ron, and Hermione deduce that the treasure under the trapdoor is the Philosopher's Stone, which can transform metal into gold and can also confer immortality. They later discover that Voldemort has been killing unicorns in the Forbidden Forest and drinking their blood, another way to achieve immortality.",
       "price": "$15.99",
       "id": "rx38zAH"
+    },
+    {
+      "title": "Pride and Prejudice ",
+      "author": "Jane Austen",
+      "description": "Pride and Prejudice, romantic novel by Jane Austen, published anonymously in three volumes in 1813. A classic of English literature, written with incisive wit and superb character delineation, it centres on the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner.",
+      "price": "$8.39",
+      "id": "z1stBo_"
     }
   ],
   "categories": [
