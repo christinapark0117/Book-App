@@ -3,6 +3,9 @@ import BookForm from "./BookForm";
 import BookList from "./BookList";
 import Search from "../Search";
 
+let limit = 2;
+let page = 1;
+
 class BookContainer extends Component {
 
     constructor() {
@@ -16,7 +19,7 @@ class BookContainer extends Component {
 
 
     componentDidMount() {
-        fetch('http://localhost:3000/books')
+        fetch(`http://localhost:3000/books/?_limit=${limit}&_page=${page}`)
             .then(db => db.json())
             .then(bookList =>
                 this.setState({allBooks: bookList}
