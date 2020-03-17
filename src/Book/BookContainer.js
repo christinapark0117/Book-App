@@ -35,10 +35,15 @@ class BookContainer extends Component {
 
     addNewBook = (newBook) => {
         this.setState(previousState => {
-            return {allPokemon: [...previousState.allBooks, newBook]}
+            return {allBooks: [...previousState.allBooks, newBook]}
         })
     }
 
+    nextPage = () => {
+        this.setState(  {
+            allBooks: []
+        })
+    }
 
     render() {
         return (
@@ -47,7 +52,7 @@ class BookContainer extends Component {
                 <BookForm addNewBook={this.addNewBook}/>
                 <BookList allBooks={this.state.allBooks.filter(
                     book => book.title.toLowerCase().includes(this.state.search.toLowerCase())
-                )}/>
+                )} onClick={this.nextPage}/>
             </div>
         );
     }
