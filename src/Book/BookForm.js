@@ -55,7 +55,7 @@ class BookForm extends Component {
                     <label htmlFor='booktitle'>
                         Title:
                         <input className="form-control" type='text' placeholder="Title of the Book" name="title" onChange={this.newBook}/>
-                    </label>
+                    </label> &nbsp;
 
                     <label htmlFor='bookauthor'>
                         Author:
@@ -65,7 +65,7 @@ class BookForm extends Component {
                     <label htmlFor='bookdescription'>
                         Description:
                         <textarea id='bookdescripiton' className="form-control" type='text' placeholder="write a description" name="description" onChange={this.newBook}/>
-                    </label>
+                    </label><br/>
 
                     <label htmlFor='bookcategory'>
                         Category:
@@ -73,7 +73,7 @@ class BookForm extends Component {
                             <option value="1">Book</option>
                             <option value="2">Categories</option>
                         </select>
-                    </label>
+                    </label> &nbsp;
 
                     <label htmlFor='bookprice'>
                         Price:

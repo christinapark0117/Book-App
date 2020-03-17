@@ -36,7 +36,11 @@ code {
   font-family: SansSerif;
   width: 20vw;
   border:1px solid #b0c4de !important;
+  margin-left: 2vw;
+  margin-top: 1.5vw;
+
 }
+
 
 .active-cyan input[type=text] {
   border: 0.8vh solid #b0c4de;
@@ -49,6 +53,11 @@ code {
 
 .form-control{
   border:1px solid #b0c4de !important;
+}
+
+#bookdescripiton{
+  width: 27vw;
+  height: 20vh;
 }
 
 .search-bar{

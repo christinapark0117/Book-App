@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 class BookCard extends Component {
     render() {
 
@@ -7,13 +8,12 @@ class BookCard extends Component {
 
         return (
             <div className='card'>
-                <div className='card-body'>
-                    <h3 className='card-title'>{title}</h3>
-                    <h5 className='card-subtitle mb-2 text-muted'>{author}</h5>
-                    <p className='card-text'>{description}</p>
-                    <h6>{price}</h6>
-                </div>
-
+                        <div className='card-body'>
+                            <h3 className='card-title'>{title}</h3>
+                            <h5 className='card-subtitle mb-2 text-muted'>{author}</h5>
+                            <p className='card-text'>{description}</p>
+                            <h6>{price}</h6>
+                        </div>
 
             </div>
         );
@@ -21,5 +21,3 @@ class BookCard extends Component {
 }
 
 export default BookCard;
-
-//
