@@ -15,6 +15,10 @@ class BookList extends Component {
                             </li>
                     )}
                 </ul>
+
+                <button className='previousbutton' id='button'>Previous</button>
+                <button className='nextbutton' id='button'>Next</button>
+
             </div>
         );
     }
