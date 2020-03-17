@@ -41,7 +41,7 @@ class BookContainer extends Component {
 
     nextPage = () => {
         this.setState(  {
-            allBooks: []
+            allBooks:  []
         })
     }
 
