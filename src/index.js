@@ -15,12 +15,3 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-// class Book {
-//     constructor(title, author, description, price) {
-//         this.title = 'Book';
-//         this.author = author;
-//         this.description = description;
-//         this.price = price
-//     }
-// }

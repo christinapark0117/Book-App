@@ -18,6 +18,7 @@ code {
 
 .book-container{
   background-color: blanchedalmond;
+
 }
 
 .book-container-div{
@@ -36,9 +37,7 @@ code {
   font-family: SansSerif;
   width: 20vw;
   border:1px solid #b0c4de !important;
-  margin-left: 2vw;
   margin-top: 1.5vw;
-
 }
 
 
@@ -68,4 +67,6 @@ code {
   text-align: center;
 }
 
-
+ul{
+  list-style-type: none;
+}
