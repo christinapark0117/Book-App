@@ -19,13 +19,14 @@ class BookContainer extends Component {
 
 
     componentDidMount() {
-        fetch(`http://localhost:3000/books/?_limit=${limit}&_page=${page}`)
+        fetch('http://localhost:3000/books')
             .then(db => db.json())
             .then(bookList =>
                 this.setState({allBooks: bookList}
             ));
     }
 
+// ?_limit=${limit}&_page=${page}
 
     handleSearch = (event) => {
         this.setState( {
@@ -37,16 +38,9 @@ class BookContainer extends Component {
         this.setState(previousState => {
             return {allBooks: [...previousState.allBooks, newBook]}
         })
-    }
-
-    nextPage = () => {
-        this.setState(  {
-            allBooks: []
-        })
-    }
+    };
 
 
-    
     render() {
         return (
             <div className='book-container-div'>
@@ -54,7 +48,7 @@ class BookContainer extends Component {
                 <BookForm addNewBook={this.addNewBook}/>
                 <BookList allBooks={this.state.allBooks.filter(
                     book => book.title.toLowerCase().includes(this.state.search.toLowerCase())
-                )} onClick={this.nextPage}/>
+                )}/>
             </div>
         );
     }
