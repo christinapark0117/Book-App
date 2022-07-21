@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/level-access-test.iml" filepath="$PROJECT_DIR$/.idea/level-access-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BookApp/.idea/level-access-test.iml" filepath="$PROJECT_DIR$/../BookApp/.idea/level-access-test.iml" />
     </modules>
   </component>
 </project>

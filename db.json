@@ -38,7 +38,7 @@
       "author": "",
       "description": "fashion and lifestyle magazine covering many topics including fashion, beauty, culture, living, and runway.",
       "price": "$19.99",
-      "categoryId": "2"
+      "categoryId": "5"
     },
     {
       "id": "6",
@@ -49,28 +49,42 @@
       "categoryId": "2"
     },
     {
+      "id": "7",
       "title": "Harry Potter the Sorcerer's Stone",
       "author": "J.K. Rowling",
       "description": "Harry, Ron, and Hermione deduce that the treasure under the trapdoor is the Philosopher's Stone, which can transform metal into gold and can also confer immortality. They later discover that Voldemort has been killing unicorns in the Forbidden Forest and drinking their blood, another way to achieve immortality.",
       "price": "$15.99",
-      "id": "rx38zAH"
+      "categoryId": "1"
     },
     {
+      "id": "8",
       "title": "Pride and Prejudice ",
       "author": "Jane Austen",
       "description": "Pride and Prejudice, romantic novel by Jane Austen, published anonymously in three volumes in 1813. A classic of English literature, written with incisive wit and superb character delineation, it centres on the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner.",
       "price": "$8.39",
-      "id": "z1stBo_"
+      "categoryId": "1"
     }
   ],
   "categories": [
     {
       "id": "1",
-      "name": "book"
+      "name": "Book-Fiction"
     },
     {
       "id": "2",
-      "name": "magazine"
+      "name": "Book-NonFiction"
+    },
+    {
+      "id": "3",
+      "name": "Book-Biography"
+    },
+    {
+      "id": "4",
+      "name": "Book-AutoBiography"
+    },
+    {
+      "id": "5",
+      "name": "Magazine"
     }
   ]
 }

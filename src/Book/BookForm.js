@@ -70,8 +70,11 @@ class BookForm extends Component {
                     <label htmlFor='bookcategory'>
                         Category:
                         <select id='bookcategory' className="form-control" placeholder="write a description" name="select" onChange={this.newBook}>
-                            <option value="1">Book</option>
-                            <option value="2">Categories</option>
+                            <option value="1">Book-Fiction</option>
+                            <option value="2">Book-NonFiction</option>
+                            <option value="3">Book-Biography</option>
+                            <option value="4">Book-AutoBiography</option>
+                            <option value="5">Magazine</option>
                         </select>
                     </label> &nbsp;
 
