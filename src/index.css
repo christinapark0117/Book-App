@@ -35,9 +35,10 @@ code {
 .card{
   text-align: left;
   font-family: SansSerif;
-  width: 20vw;
+  width: 22vw;
+  height: 45vh;
   border:1px solid #b0c4de !important;
-  margin-top: 1.5vw;
+  margin: 2vw;
 }
 
 
@@ -47,7 +48,7 @@ code {
 
 .form-div{
   float: right;
-  padding: 2vw;
+  padding: 5vw;
 }
 
 .form-control{
@@ -68,6 +69,7 @@ code {
 }
 
 ul{
+  column-count: 2;
   list-style-type: none;
 }
 
