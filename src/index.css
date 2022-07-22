@@ -23,7 +23,7 @@ code {
 
 .book-container-div{
   background: url("https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
-  /* background-repeat: repeat-y; */
+  background-repeat: repeat-y;
   background-size: 100vw 100vh;
 }
 
@@ -35,9 +35,10 @@ code {
 .card{
   text-align: left;
   font-family: SansSerif;
-  width: 20vw;
+  width: 22vw;
+  height: 45vh;
   border:1px solid #b0c4de !important;
-  margin-top: 1.5vw;
+  margin: 2vw;
 }
 
 
