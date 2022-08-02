@@ -32,6 +32,15 @@ code {
   font-family: "Kaiti TC";
 }
 
+.book-list{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+          'card card'
+          'card card'
+}
+
 .card{
   text-align: left;
   font-family: SansSerif;
@@ -69,7 +78,6 @@ code {
 }
 
 ul{
-  column-count: 2;
   list-style-type: none;
 }
 
