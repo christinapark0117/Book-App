@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactPaginate from 'react-paginate';
 import BookForm from "./BookForm";
 import BookList from "./BookList";
 import Search from "../Search";
@@ -26,7 +27,6 @@ class BookContainer extends Component {
             ));
     }
 
-// ?_limit=${limit}&_page=${page}
 
     handleSearch = (event) => {
         this.setState( {
