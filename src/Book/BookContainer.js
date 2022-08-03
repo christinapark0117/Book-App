@@ -4,8 +4,6 @@ import BookForm from "./BookForm";
 import BookList from "./BookList";
 import Search from "../Search";
 
-let limit = 2;
-let page = 1;
 
 class BookContainer extends Component {
 
@@ -39,6 +37,10 @@ class BookContainer extends Component {
             return {allBooks: [...previousState.allBooks, newBook]}
         })
     };
+
+    pagination = ({allBooks, BookList, allBooksLimit, pageLimit}) => {
+        
+    }
 
 
     render() {
